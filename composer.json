@@ -1,0 +1,21 @@
+{
+    "name": "hexlet/code",
+    "description": "project2",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gailole",
+            "email": "oleg.gailun@yandex.ru"
+        }
+    ],
+    "bin": [
+        "bin/gendiff.php"
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+}
